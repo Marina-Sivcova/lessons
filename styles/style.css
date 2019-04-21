@@ -1,0 +1,37 @@
+table {
+    background: #f6f6f6;
+}
+#circle {
+    position: relative;
+    background-color: #7ad6ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+}
+td.le {
+    width: 60px;
+}
+#text {
+    font-size: larger;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.letter {
+    color: #17ff12;
+}
+.we {
+    color: #7ad6ff;
+}
+td.td {
+    text-align: right;
+    color: #999999;
+}
+.col {
+    color: #999999;
+}
+td img {
+    vertical-align: bottom;
+}
