@@ -1,37 +1,67 @@
-table {
-    background: #f6f6f6;
+.kira {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #F6F6F6;
+    max-width: 700px;
+    min-width: 100px;
+    padding: 5px;
 }
-#circle {
-    position: relative;
-    background-color: #7ad6ff;
+
+.krug {
+    display: inline-block;
+    float: left;
+    background-color: rgba(66, 197, 255, 0.9);
     width: 50px;
     height: 50px;
     border-radius: 200px;
 }
-td.le {
-    width: 60px;
-}
-#text {
+
+.op {
+    display: inline-block;
+    color: white;
+    font-family: Arial, sans-serif;
     font-size: larger;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
+    width: 25px;
+    margin-left: 10px;
+    padding-top: 15px;
 }
+
+.ht {
+    display: inline-block;
+    float: right;
+    margin-left: 13px;
+    margin-top: 5px;
+}
+.gruppa {
+    display: inline-block;
+}
+
+.Omy {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: small;
+    letter-spacing: 0.4px;
+    margin-left: 3px;
+}
+
+.clock {
+    color: #999999;
+    margin-left: 70px;
+    margin-right: 5px;
+    font-size: smaller;
+}
+
 .letter {
     color: #17ff12;
 }
+
+.message {
+    display: block;
+    margin-top: 5px;
+    color:  #999999;
+}
+
 .we {
     color: #7ad6ff;
-}
-td.td {
-    text-align: right;
-    color: #999999;
-}
-.col {
-    color: #999999;
-}
-td img {
-    vertical-align: bottom;
 }
