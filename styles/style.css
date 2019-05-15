@@ -2,10 +2,14 @@
     display: inline-block;
     margin-left: 10px;
     margin-top: 10px;
+    padding: 5px;
     background-color: #F6F6F6;
     max-width: 700px;
-    min-width: 100px;
-    padding: 5px;
+    min-width: 200px;
+    width: 18vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .krug {
@@ -27,28 +31,18 @@
     padding-top: 15px;
 }
 
-.ht {
-    display: inline-block;
-    float: right;
-    margin-left: 13px;
+.stroka1 {
+    display: block;
+    margin-left: 60px;
     margin-top: 5px;
-}
-.gruppa {
-    display: inline-block;
-}
-
-.Omy {
-    font-family: Arial, sans-serif;
-    font-weight: 600;
-    font-size: small;
-    letter-spacing: 0.4px;
-    margin-left: 3px;
+    width: 100%;
 }
 
 .clock {
+    display: inline-block;
     color: #999999;
-    margin-left: 70px;
     margin-right: 5px;
+    margin-left: 60px;
     font-size: smaller;
 }
 
@@ -56,12 +50,24 @@
     color: #17ff12;
 }
 
+.Omy {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: small;
+    letter-spacing: 0.4px;
+    margin-left: 3px;
+}
+
 .message {
     display: block;
     margin-top: 5px;
+    margin-left: 60px;
     color:  #999999;
+    width: 100%;
 }
 
 .we {
     color: #7ad6ff;
 }
+
